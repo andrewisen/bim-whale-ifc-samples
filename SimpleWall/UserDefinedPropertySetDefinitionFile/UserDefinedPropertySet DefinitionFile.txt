@@ -1,0 +1,44 @@
+﻿#
+# User Defined PropertySet Definition File
+#
+# Format:
+#    PropertySet:	<Pset Name>	I[nstance]/T[ype]	<element list separated by ','>
+#	<Property Name 1>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	<Property Name 2>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	...
+
+PropertySet:	Custom_Pset	I	IfcProduct
+	TypeMark					Label		Type Mark
+	Keynote						Label		Keynote
+	SpaceName					Label		Name
+	SpaceNumber					Label		Number
+	StoreyName					Text		Level
+	InstanceDescription			Text		Comments
+	TypeDescription				Text		Description
+	StatusConstruction			Label		Phase Created
+	Occupancy					Text		Occupancy
+	NetArea						Area		Area
+	FloorType					Text		Floor Finish
+	StatusConstruction			Label		Phase Created
+	Department					Text		Department
+	StoreyName					Text		Base Level
+	StoreyName					Text		Base Constraint
+	Height						Length		Height
+	Height						Length		W_Height
+	Height						Length		Frame Height
+	Height						Length		Unconnected Height
+	RoughHeight					Lenght		Rough height
+	Width						Length		Width
+	Width						Length		W_Width
+	Width						Length		Frame Width
+	RoughWidth					Length		Rough Width
+	Length						Length		Length
+	Depth						Length		Depth
+	Depth						Length		SHS_Depth
+	Depth						Length		S_Depth
+	SillHeight					Length		Sill Height
+	AcousticRatingReq			Label		AcousticRatingReq		
+	Hyperlink					Text		URL
+	ObjectID					Identifier	Id
+	SecurityRatingReq			Label		W_SecurityRatingReq
+	FireRatingReq				Label		FireRatingReq
