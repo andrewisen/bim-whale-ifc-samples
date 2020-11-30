@@ -9,7 +9,7 @@ The project consist of a multistorey apartment building.
 
 Each apartment has been roughly modeled. 
 
-![Screenshot](https://raw.githubusercontent.com/andrewisen/bim-whale-samples/main/AdvancedProject/Screenshots/Screenshot_1.png)
+![Screenshot](https://raw.githubusercontent.com/andrewisen/bim-whale-samples/main/AdvancedProject/Screenshots/Screenshot_2.png)
 
 ## Instructions
 Simply download the file found in the `ifc` folder.
